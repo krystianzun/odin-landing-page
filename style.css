@@ -7,6 +7,11 @@
   margin: 0;
 }
 
+button {
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: 0px;
+}
 
 /*_____________________________________________*/
 /* Navbar */
@@ -46,7 +51,7 @@ ul {
 
 .section-header {
     background-color: #1f2937;
-    padding: 50px 0px;
+    padding: 150px 0px;
     display: flex;
     justify-content: center;
 }
@@ -55,4 +60,32 @@ ul {
     width: 940px;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+}
+
+.left-items {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.button-primary {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.header-image {
+    flex: 1;
+    background-color: lightgray;
 }
