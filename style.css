@@ -150,3 +150,15 @@ h2 {
 
 /*_____________________________________________*/
 /* Footer */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+#footer-text {
+    margin: 0;
+}
