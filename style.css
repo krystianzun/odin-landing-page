@@ -18,7 +18,7 @@ button {
 
 .navbar-container {
     background-color: #1f2937;
-    padding: 16px;
+    padding: 16px 24px;
     display: flex;
     justify-content: center;
 }
@@ -51,7 +51,7 @@ ul {
 
 .section-header {
     background-color: #1f2937;
-    padding: 144px 0px;
+    padding: 144px 72px;
     display: flex;
     justify-content: center;
 }
@@ -144,6 +144,32 @@ h2 {
 /*_____________________________________________*/
 /* Quote */
 
+.section-quote {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 16px;
+    margin: 72px;    
+}
+
+h3 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#quote-author {
+    align-self: flex-end;
+    color: #1f2937;
+}
 
 /*_____________________________________________*/
 /* CTA */
@@ -159,11 +185,12 @@ h2 {
     width: 940px;
     gap: 24px;
     background-color: #3882f6;
-    padding: 56px 0px;
+    padding: 56px;
+    box-sizing: border-box;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 8px;
-
+    margin: 72px;
 }
 
 .left-description {
@@ -198,7 +225,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
+    padding: 40px;
 }
 
 #footer-text {
