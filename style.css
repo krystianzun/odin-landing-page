@@ -98,11 +98,11 @@ p {
 .section-content {
     display: flex;
     justify-content: center;
-    padding: 48px 72px;
+    padding: 48px 72px 104px 72px;
 }
 
 .content {
-    width: 940px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,20 +119,25 @@ h2 {
 .items {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .item {
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 8px;
     align-items: center;
 }
 
 .content-image {
-    width: auto;
-    height: 150px;
-    background-color: #3882f6;
+    width: 164px;
+    height: 164px;
+    background-color: #fff;
     border-radius: 8px;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-style: solid;
 }
 
 .content-text {
